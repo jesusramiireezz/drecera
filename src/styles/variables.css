@@ -1,0 +1,29 @@
+:root {
+  --bg-main: #050505;
+  --bg-secondary: #111111;
+  --offwhite: #f2f0e9;
+  --gray: #8e938d;
+  --border-subtle: rgba(242, 240, 233, 0.12);
+  --accent: #f2f0e9;
+  --accent-hover: #f2f0e9;
+  --white: #ffffff;
+  --color-black: var(--bg-main);
+  --color-white: var(--offwhite);
+  --color-gray-100: var(--offwhite);
+  --color-gray-300: var(--gray);
+  --color-gray-900: var(--bg-secondary);
+  --color-accent: var(--accent);
+  --font-main: 'Satoshi', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-heading: var(--font-main);
+  --font-body: var(--font-main);
+  --container: min(100% - clamp(32px, 8vw, 160px), 1480px);
+  --page-pad: clamp(32px, 4vw, 80px);
+  --section-slant: clamp(28px, 3.6vw, 68px);
+  --section-title-size: clamp(3.6rem, 5.8vw, 7.4rem);
+  --section-title-tracking: -0.058em;
+  --section-title-leading: 0.94;
+  --section-label-size: 0.72rem;
+  --section-label-tracking: 0.14em;
+  --section-label-gap: clamp(72px, 8vw, 120px);
+  --radius: 0;
+}
