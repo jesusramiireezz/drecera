@@ -5,7 +5,6 @@ const links = [
   { label: 'Servicios', href: '/#servicios' },
   { label: 'Capacidades', href: '/#capacidades' },
   { label: 'Método', href: '/#metodo' },
-  { label: 'Drecera', href: '/#nosotros' },
 ];
 
 function Navbar() {

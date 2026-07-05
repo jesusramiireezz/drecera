@@ -11,7 +11,6 @@ function Footer() {
             <a href="/#servicios">Servicios</a>
             <a href="/#capacidades">Capacidades</a>
             <a href="/#metodo">Método</a>
-            <a href="/#nosotros">Drecera</a>
             <a href="/contacto">Contacto</a>
           </nav>
           <div className="site-footer__legal">
