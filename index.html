@@ -14,6 +14,7 @@
     />
     <meta name="author" content="DRECERA" />
     <meta name="robots" content="index, follow" />
+    <meta name="application-name" content="DRECERA" />
     <meta name="theme-color" content="#050505" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="canonical" href="https://somdrecera.com/" />
@@ -37,8 +38,12 @@
       {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
+        "@id": "https://somdrecera.com/#organization",
         "name": "DRECERA",
+        "alternateName": ["somdrecera", "Som Drecera"],
         "url": "https://somdrecera.com/",
+        "logo": "https://somdrecera.com/favicon.png",
+        "email": "contacto@somdrecera.com",
         "description": "Consultora tecnológica especializada en automatización de procesos, integraciones API, Business Central, Power Automate, IA aplicada y desarrollo a medida.",
         "areaServed": "ES",
         "serviceType": [
@@ -48,6 +53,53 @@
           "Power Automate",
           "Desarrollo a medida",
           "IA aplicada"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://somdrecera.com/#website",
+        "name": "DRECERA",
+        "alternateName": "somdrecera",
+        "url": "https://somdrecera.com/",
+        "publisher": {
+          "@id": "https://somdrecera.com/#organization"
+        },
+        "inLanguage": "es"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://somdrecera.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es DRECERA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "DRECERA es una consultora tecnológica especializada en automatización de procesos, integraciones API, Business Central, Power Automate, IA aplicada y soluciones internas a medida."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué significa drecera?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En mallorquín y catalán, drecera significa atajo: el camino más corto para llegar a un lugar. La marca DRECERA utiliza esa idea para ayudar a empresas a trabajar con menos pasos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué servicios ofrece DRECERA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "DRECERA ofrece automatización de procesos, integraciones entre sistemas, IA aplicada a procesos, desarrollo de aplicaciones internas y soluciones digitales a medida."
+            }
+          }
         ]
       }
     </script>
