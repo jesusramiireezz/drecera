@@ -15,8 +15,6 @@ function Footer() {
           </nav>
           <div className="site-footer__legal">
             <span>© 2026 Drecera</span>
-            <a href="#privacidad">Privacidad</a>
-            <a href="#legal">Legal</a>
           </div>
         </div>
       </div>
